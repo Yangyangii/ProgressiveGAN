@@ -2,7 +2,7 @@
 
 ## Paper: [Progressive Growing of GANs for Improved Quality, Stability, and Variation](https://arxiv.org/pdf/1710.10196.pdf)
 
-<img src="/assets/pggan.png" width="400"/>
+<img src="/assets/pggan.png" height="240"/>
 
 
 ## Dataset
@@ -29,5 +29,5 @@
 
 ## Notes
 - If you have high-end GPUs(e.g. Tesla V100), you can train higher resolution images. I have only RTX 2070....
-- To improve the quality, you may change some hyperparmeters(e.g. # of Convolution feature maps (256 -> 512))
+- To improve the quality, you may change some hyperparmeters(e.g. # of Convolution feature maps (256 -> 512), batch size (>32, important), and update schedule)
 - [T. Karras' Official Tensorflow implementation](https://github.com/tkarras/progressive_growing_of_gans)
